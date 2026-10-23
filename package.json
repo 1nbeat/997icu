@@ -1,0 +1,15 @@
+{
+  "name": "997icu-homepage",
+  "version": "1.0.0",
+  "private": true,
+  "description": "997icu.cn — 把时间还给生活",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "check": "node --check app.js && node --check server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "test:browser": "node tests/browser.mjs"
+  },
+  "engines": { "node": ">=20" }
+}
