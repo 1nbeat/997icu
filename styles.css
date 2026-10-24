@@ -41,3 +41,5 @@
 .calculator-fields input::-webkit-slider-thumb{border-color:#2c2c2c}
 .calculator-fields input::-moz-range-thumb{border-color:#2c2c2c}
 ::selection{background:#aaaaaa;color:#171717}
+.footer-source{overflow-wrap:anywhere}
+.footer-source a{text-decoration:underline;text-underline-offset:3px}
